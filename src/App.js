@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//---------------------- Importing required libararies ----------------------//
+import React from 'react';
+import Transactions from './components/transactions/Transactions';
+import './App.css'
 
-function App() {
+
+//-------------------- App Function --------------------//
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app-container'>
+      <Transactions />
     </div>
   );
-}
+};
 
 export default App;
