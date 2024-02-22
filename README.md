@@ -1,7 +1,45 @@
 # Frontend task
+<p align="justify">✍ This project showcases a detailed dashboard designed as a single-page application for visualizing transaction data. It connects with existing APIs to retrieve and exhibit details related to transactions, enabling users to conduct thorough analyses. The dashboard displays this information through a well-organized table and interactive charts, providing a clear and efficient way to understand transaction trends and patterns.</p>
 
-### Click the Go Live button and see the live👉 [Go Live](https://frontend-with-vishalkumar.netlify.app)
+### Click the Go Live button and see the live👉 [Go Live](https://frontend-with-vishalkumar.netlify.app/)
 
+## Installation
+- Install the required dependencies using npm install.
+- Start the server using npm start.
+
+## Folder Structure
+   - #### public
+   - #### src
+        - #### components
+           - ###### barChar
+              - ###### barChar.css
+              - ###### BarChart.js
+           - ###### statistics
+              - ###### statistics.css
+              - ###### Statistics.js
+           - ###### transactions 
+              - ###### transactions.css
+              - ###### Transactions.js
+        - ##### App.css
+        - ##### App.js
+        - ##### index.css
+        - ##### index.js
+   - #### package.json
+   - ##### README.md
+
+## Features
+   ### Transactions Table
+   #### <b style="color:black">Data Fetching:</b> Utilizes the transactions listing API to populate the table with transaction records. 
+   #### <b style="color:black">Month Selection:</b> Includes a dropdown to select a month (January to December), with March set as the default selection.
+   #### <b style="color:black"> Dynamic Listing:</b> Displays transactions of the selected month across all years, fetched from the API.
+   #### <b style="color:black">Search Functionality:</b> Allows searching for transactions by title, description, or price. Results are filtered based on the search query for the selected month.
+   #### <b style="color:black">Pagination:</b> Supports navigation through the dataset with "Next" and "Previous" buttons, loading corresponding data via the API.
+
+## Transactions Statistics
+   #### <b style="color:black">Overview Boxes:</b> Showcases the total sales amount, total sold items, and total unsold items for the selected month, leveraging data from a dedicated API.
+## Transactions Bar Chart
+   #### <b style="color:black">Visual Representation:</b> Illustrates the distribution of transactions within different price ranges for the selected month, regardless of year, using data from the API.
+   #### <b style="color:black">Consistent Month Selection:</b> Applies the same month selection from the dropdown above the table to the bar chart data.
 
 # Getting Started with Create React App
 
